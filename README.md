@@ -26,7 +26,7 @@ pip install -r requirements.txt
 The denseflow.py contains two modes including '**run**' and '**debug**'.
 
 
-here 'debug' is built for debugging the video paths and video-read methods. (IPython.embed suggested)
+here 'debug' is built for debugging the video paths and video-read methods. ([IPython.embed](http://ipython.org/ipython-doc/dev/interactive/reference.html#embedding) suggested)
 
 Just simply run the following code:
 
