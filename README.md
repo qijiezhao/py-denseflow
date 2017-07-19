@@ -31,7 +31,7 @@ here 'debug' is built for debugging the video paths and video-read methods. (IPy
 Just simply run the following code:
 
 ```
-python denseflow.py --new_dir=denseflow_py --num_workers=4 --step=1 --bound=20 --mode=debug
+python denseflow.py --new_dir=denseflow_py --num_workers=1 --step=1 --bound=20 --mode=debug
 
 ```
 While in 'run' mode, here we provide multi-process as well as multi-server with manually s_/e_ IDs setting.
