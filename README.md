@@ -1,7 +1,7 @@
 # Py-denseflow
 
 
-This is a python port of denseflow, which extract the videos' frames and **optical flow images** with ==TVL1 algorithm== as default.
+This is a python port of denseflow, which extract the videos' frames and **optical flow images** with **TVL1 algorithm** as default.
 
 ---
 
