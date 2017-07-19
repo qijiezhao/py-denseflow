@@ -44,5 +44,5 @@ python denseflow.py --new_dir=denseflow_py --num_workers=4 --step=1 --bound=20 -
 
 ---
 
-Just feel free to ask me if any bugs exist.
+Just feel free to let me know if any bugs exist.
 
