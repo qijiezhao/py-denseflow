@@ -21,7 +21,7 @@ def ToImg(raw_flow,bound):
     flow[flow>bound]=bound
     flow[flow<-bound]=-bound
     flow-=-bound
-    flow*=(256/float(2*bound))
+    flow*=(255/float(2*bound))
     return flow
 
 def save_flows(flows,image,save_dir,num,bound):
@@ -97,7 +97,7 @@ def dense_flow(augs):
             gray=np.zeros_like(frame)
             prev_gray=np.zeros_like(frame)
             prev_image=frame
-            prev_gray=cv2.cvtColor(prev_image,cv2.COLOR_BGR2GRAY)
+            prev_gray=cv2.cvtColor(prev_image,cv2.COLOR_RGB2GRAY)
             frame_num+=1
             # to pass the out of stepped frames
             step_t=step
