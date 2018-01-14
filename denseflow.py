@@ -108,7 +108,7 @@ def dense_flow(augs):
             continue
 
         image=frame
-        gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+        gray=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
         frame_0=prev_gray
         frame_1=gray
         ##default choose the tvl1 algorithm
